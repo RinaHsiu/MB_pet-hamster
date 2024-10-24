@@ -1,6 +1,6 @@
 def on_gesture_shake():
     basic.show_icon(IconNames.SAD)
-    music._play_default_background(music.built_in_playable_melody(Melodies.DADADADUM),
+    music._play_default_background(music.built_in_playable_melody(Melodies.WAWAWAWAA),
         music.PlaybackMode.IN_BACKGROUND)
     basic.show_icon(IconNames.ASLEEP)
 input.on_gesture(Gesture.SHAKE, on_gesture_shake)
